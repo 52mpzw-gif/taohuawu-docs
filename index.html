@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>桃花坞 - 城市娱乐AI助理与本地休闲信息指南</title>
-  <meta name="description" content="桃花坞是面向城市娱乐信息搜索、城区筛选、资源线索整理与社区讨论的AI助理。了解桃花坞怎么用，并前往官网 taohuawuapp.com 开始搜索。">  <meta name="robots" content="index,follow">
+  <title>桃花坞 - 城市娱乐信息搜索与本地休闲生活AI助理</title>
+  <meta name="description" content="桃花坞是城市娱乐信息搜索与本地休闲生活AI助理，覆盖会所SPA、按摩水疗、商务KTV、私人影院、女仆馆、线下陪玩、舞厅、砂舞、酒吧夜场等娱乐项目。">  <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://51yule.github.io/taohuawu-docs/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="桃花坞 - 城市娱乐AI助理">
-  <meta property="og:description" content="按城市、城区和需求查找公开网络线索、社区讨论与AI整理结果。">
+  <meta property="og:title" content="桃花坞 - 城市娱乐信息搜索AI助理">
+  <meta property="og:description" content="按城市、城区、商圈和娱乐项目了解本地休闲生活信息。">
   <meta property="og:image" content="https://taohuawuapp.com/static/img/logo.jpg">
   <style>
     :root{--ink:#1f2933;--muted:#64748b;--line:#e5e7eb;--peach:#f9735b;--rose:#fff1ee;--teal:#0f766e;--gold:#b7791f;--paper:#fffaf7}
@@ -19,8 +19,8 @@
     .hero{background:linear-gradient(180deg,var(--paper),#fff);border-bottom:1px solid var(--line)}.hero-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);gap:38px;align-items:center;padding:72px 20px 52px}
     .eyebrow{color:var(--teal);font-weight:800;font-size:14px}.hero h1{font-size:46px;line-height:1.12;margin:14px 0 18px;letter-spacing:0}.lead{font-size:18px;color:#475569;max-width:680px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
     .btn{display:inline-flex;align-items:center;justify-content:center;border-radius:8px;padding:12px 18px;font-weight:800;border:1px solid transparent}.btn.primary{background:var(--peach);color:#fff}.btn.secondary{background:#fff;color:var(--ink);border-color:var(--line)}
-    .device{background:#111827;color:#fff;border-radius:8px;padding:18px;box-shadow:0 18px 50px rgba(31,41,51,.18)}.device-top{display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(255,255,255,.14);padding-bottom:12px}.device img{width:34px;height:34px;border-radius:8px}.device p{color:#cbd5e1}.searchbox{background:#fff;color:#111827;border-radius:8px;padding:12px;margin-top:16px}.searchbox strong{display:block}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.chip{border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:4px 10px;color:#e2e8f0;font-size:13px}
-    section{padding:46px 0}.section-title{font-size:30px;margin:0 0 10px}.section-desc{color:var(--muted);margin:0 0 24px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{border:1px solid var(--line);border-radius:8px;padding:20px;background:#fff}.card h3{margin:0 0 8px;font-size:20px}.card p{color:#526173;margin:0}.band{background:#f8fafc;border-block:1px solid var(--line)}.list{display:grid;gap:12px}.list a{display:block;border:1px solid var(--line);border-radius:8px;padding:14px 16px;background:#fff;color:var(--ink)}.note{border-left:4px solid var(--gold);background:#fff8eb;padding:16px 18px;color:#5b4636;border-radius:0 8px 8px 0}
+    .device{background:#111827;color:#fff;border-radius:8px;padding:18px;box-shadow:0 18px 50px rgba(31,41,51,.18)}.device-top{display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(255,255,255,.14);padding-bottom:12px}.device img{width:34px;height:34px;border-radius:8px}.device p{color:#cbd5e1}.searchbox{background:#fff;color:#111827;border-radius:8px;padding:12px;margin-top:16px}.searchbox strong{display:block}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.chip{border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:4px 10px;color:#e2e8f0;font-size:13px}.device-list{display:grid;gap:10px;margin-top:14px}.device-list div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:10px;color:#e5e7eb}
+    section{padding:46px 0}.section-title{font-size:30px;margin:0 0 10px}.section-desc{color:var(--muted);margin:0 0 24px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.card{border:1px solid var(--line);border-radius:8px;padding:20px;background:#fff}.card h3{margin:0 0 8px;font-size:20px}.card p{color:#526173;margin:0}.card strong{color:var(--teal)}.band{background:#f8fafc;border-block:1px solid var(--line)}.list{display:grid;gap:12px}.list a{display:block;border:1px solid var(--line);border-radius:8px;padding:14px 16px;background:#fff;color:var(--ink)}.note{border-left:4px solid var(--gold);background:#fff8eb;padding:16px 18px;color:#5b4636;border-radius:0 8px 8px 0}.cityline{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.cityline a,.cityline span{border:1px solid var(--line);border-radius:999px;background:#fff;padding:6px 11px;color:#334155}.category{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.category span{background:#fff7f3;border:1px solid #fed7cc;border-radius:999px;padding:6px 10px;color:#7a3a2b;font-size:14px}
     footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:14px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
     @media(max-width:760px){.nav{height:auto;padding:14px 0;align-items:flex-start}.navlinks{gap:12px}.hero-grid{grid-template-columns:1fr;padding-top:46px}.hero h1{font-size:34px}.grid{grid-template-columns:1fr}.actions .btn{width:100%}}
   </style>
@@ -31,22 +31,26 @@
     <section class="hero">
       <div class="wrap hero-grid">
         <div>
-          <div class="eyebrow">城市娱乐AI助理 · 公开信息整理 · 社区线索导航</div>
-          <h1>桃花坞，帮你更快了解城市娱乐信息。</h1>
-          <p class="lead">桃花坞围绕城市、城区、资源类型和用户真实提问，整理公开网络线索、社区讨论与AI摘要，让用户先做信息收集，再自行核验和决策。</p>
-          <div class="actions"><a class="btn primary" href="https://taohuawuapp.com">进入桃花坞官网</a><a class="btn secondary" href="/taohuawu-docs/guide/what-is-taohuawu.html">了解桃花坞是什么</a></div>
+          <div class="eyebrow">桃花坞 · 城市娱乐信息搜索AI助理</div>
+          <h1>查城市夜生活和本地娱乐信息，从桃花坞开始。</h1>
+          <p class="lead">桃花坞面向城市娱乐和本地休闲生活，把会所SPA、按摩水疗、商务KTV、私人影院、女仆馆、线下陪玩、舞厅、砂舞、酒吧夜场等信息，按城市、城区、商圈和场景整理成更容易理解的参考。</p>
+          <div class="actions"><a class="btn primary" href="https://taohuawuapp.com">进入桃花坞官网</a><a class="btn secondary" href="/taohuawu-docs/city/">查看49个城市指南</a></div>
         </div>
         <div class="device" aria-label="桃花坞搜索示意">
-          <div class="device-top"><img src="https://taohuawuapp.com/static/img/logo.jpg" alt=""><strong>桃花坞 AI 搜索</strong></div>
-          <p>输入城市、城区和需求，AI 会先理解你的意图，再返回可参考的城市娱乐信息线索。</p>
-          <div class="searchbox"><strong>示例提问</strong><span>成都 金牛区 夜间休闲 / 杭州 城西 私影 / 苏州 姑苏区 按摩</span></div>
-          <div class="chips"><span class="chip">城市</span><span class="chip">城区</span><span class="chip">分类</span><span class="chip">黄金时段</span><span class="chip">社区讨论</span></div>
+          <div class="device-top"><img src="https://taohuawuapp.com/static/img/logo.jpg" alt=""><strong>桃花坞 AI 城市助理</strong></div>
+          <p>把一句模糊需求拆成城市、片区、娱乐项目和夜间路线，先看清方向，再决定是否继续了解。</p>
+          <div class="searchbox"><strong>可以这样问</strong><span>上海静安附近商务KTV和SPA怎么选？<br>重庆九街酒吧夜场和按摩足疗怎么安排？<br>厦门岛内私影、女仆馆和清吧有哪些方向？</span></div>
+          <div class="device-list"><div>城市：北京、上海、成都、广州、深圳、杭州、苏州、重庆...</div><div>项目：会所SPA、商务KTV、私影、酒吧、舞厅、砂舞、线下陪玩...</div></div>
+          <div class="chips"><span class="chip">城市娱乐</span><span class="chip">本地休闲</span><span class="chip">AI助理</span><span class="chip">夜生活信息</span></div>
         </div>
       </div>
     </section>
-    <section><div class="wrap"><h2 class="section-title">桃花坞适合解决什么问题</h2><p class="section-desc">围绕“在哪里找、怎么缩小范围、结果怎么判断”这三个环节，降低本地娱乐信息搜索成本。</p><div class="grid"><article class="card"><h3>按城市找线索</h3><p>从城市名开始，逐步加入城区、商圈和具体需求，让搜索结果更贴近实际范围。</p></article><article class="card"><h3>用AI做初筛</h3><p>AI会把分散信息整理成更容易阅读的摘要，方便快速比较候选结果。</p></article><article class="card"><h3>结合社区判断</h3><p>通过城市讨论区、最近活跃情况和用户反馈，辅助判断信息是否仍然值得继续核验。</p></article></div></div></section>
-    <section class="band"><div class="wrap"><h2 class="section-title">新手阅读路径</h2><p class="section-desc">如果你是第一次了解桃花坞，可以按下面顺序阅读。</p><div class="list"><a href="/taohuawu-docs/guide/what-is-taohuawu.html">桃花坞是什么？城市娱乐AI助理的定位说明</a><a href="/taohuawu-docs/guide/city-search-guide.html">城市娱乐资源搜索怎么描述需求</a><a href="/taohuawu-docs/city/">城市娱乐信息指南：按城市查看本地休闲内容</a><a href="/taohuawu-docs/guide/district-filter-guide.html">为什么要带上城区和商圈</a><a href="/taohuawu-docs/guide/category-search-guide.html">常见娱乐项目怎么分类</a><a href="/taohuawu-docs/guide/where-to-go-at-night.html">夜间出行前如何做信息核验</a></div></div></section>
-    <section><div class="wrap"><div class="note">提示：桃花坞展示的信息主要来自公开网络、历史资料、社区内容或AI整理摘要，具有时效性和不确定性。到店、预约、付款或线下行动前，请务必自行确认地址、营业状态、价格、服务内容与合规情况。</div></div></section>
+    <section><div class="wrap"><h2 class="section-title">桃花坞是什么</h2><p class="section-desc">桃花坞不是单一的商家列表，也不是普通地图导航。它更像一个城市娱乐信息助理，帮助用户把夜生活、本地休闲和娱乐项目放到同一个城市语境里理解。</p><div class="grid"><article class="card"><h3>按城市理解夜生活</h3><p>成都看九眼桥和春熙路，重庆看观音桥和九街，上海看静安和新天地，厦门要分岛内岛外，东莞要按镇街判断。桃花坞把城市差异放在第一位。</p></article><article class="card"><h3>按项目拆分需求</h3><p>会所SPA、按摩水疗、商务KTV、私人影院、女仆馆、线下陪玩、舞厅、砂舞、酒吧夜场并不是同一种需求，适合分开比较。</p></article><article class="card"><h3>用AI整理复杂信息</h3><p>AI 会围绕城市、城区、商圈、同行人数、时间段和项目类型组织信息，让用户更快看清一晚上的可选方向。</p></article></div></div></section>
+    <section class="band"><div class="wrap"><h2 class="section-title">覆盖哪些娱乐信息</h2><p class="section-desc">桃花坞关注成年人城市休闲生活里的常见搜索场景，既有商务应酬，也有朋友聚会、情侣约会、夜游宵夜和本地熟人娱乐。</p><div class="grid"><article class="card"><h3>会所SPA与按摩水疗</h3><p>适合下班后放松、出差酒店周边、夜宵后的休闲安排。可结合城区、商圈、价格范围和近期评价继续判断。</p></article><article class="card"><h3>商务KTV与酒吧夜场</h3><p>适合朋友聚会和商务接待，常见于核心商圈、酒店周边、夜生活街区和本地娱乐聚集区。</p></article><article class="card"><h3>私人影院与主题娱乐</h3><p>私人影院、女仆馆、桌游、剧本杀、线下陪玩、Livehouse 和小酒馆，适合年轻人周末和小范围聚会。</p></article><article class="card"><h3>舞厅砂舞与音乐茶吧</h3><p>舞厅、砂舞、交谊舞、音乐茶吧和慢摇舞吧更依赖本地圈层、营业时段和近期反馈，需要按城市片区细看。</p></article><article class="card"><h3>夜游宵夜与本地路线</h3><p>很多城市的娱乐安排从晚饭、夜景、江边湖边、商场夜市开始，再接KTV、酒吧、按摩或私影。</p></article><article class="card"><h3>城市商圈与出行判断</h3><p>同一座城市里，不同城区可能差别很大。桃花坞强调距离、交通、时间段和返程成本，减少盲目跨区换场。</p></article></div><div class="category"><span>会所SPA</span><span>按摩水疗</span><span>足疗养生</span><span>商务KTV</span><span>私人影院</span><span>女仆馆</span><span>线下陪玩</span><span>舞厅</span><span>砂舞</span><span>酒吧夜场</span><span>音乐茶吧</span><span>夜宵休闲</span></div></div></section>
+    <section><div class="wrap"><h2 class="section-title">49个城市娱乐指南</h2><p class="section-desc">桃花坞已经按城市整理本地娱乐信息页，覆盖一线城市、新一线城市、长三角、珠三角、省会城市和多个本地休闲活跃城市。</p><div class="cityline"><a href="/taohuawu-docs/city/shanghai.html">上海</a><a href="/taohuawu-docs/city/beijing.html">北京</a><a href="/taohuawu-docs/city/chengdu.html">成都</a><a href="/taohuawu-docs/city/chongqing.html">重庆</a><a href="/taohuawu-docs/city/shenzhen.html">深圳</a><a href="/taohuawu-docs/city/guangzhou.html">广州</a><a href="/taohuawu-docs/city/hangzhou.html">杭州</a><a href="/taohuawu-docs/city/suzhou.html">苏州</a><a href="/taohuawu-docs/city/xiamen.html">厦门</a><a href="/taohuawu-docs/city/dongguan.html">东莞</a><span>以及更多城市...</span></div><div class="actions"><a class="btn primary" href="/taohuawu-docs/city/">进入城市目录</a><a class="btn secondary" href="https://taohuawuapp.com">去官网查询实时动态</a></div></div></section>
+    <section class="band"><div class="wrap"><h2 class="section-title">新手阅读路径</h2><p class="section-desc">第一次了解桃花坞，可以先看品牌定位，再按城市和项目深入。</p><div class="list"><a href="/taohuawu-docs/about.html">关于桃花坞：城市娱乐信息搜索与AI助理品牌说明</a><a href="/taohuawu-docs/guide/what-is-taohuawu.html">桃花坞是什么：娱乐信息、AI助理与本地休闲生活</a><a href="/taohuawu-docs/city/">城市娱乐信息指南：按49个城市查看本地休闲内容</a><a href="/taohuawu-docs/guide/city-search-guide.html">城市搜索指南：如何表达地区、商圈和娱乐需求</a><a href="/taohuawu-docs/guide/category-search-guide.html">项目分类指南：会所SPA、商务KTV、私影、舞厅、酒吧怎么区分</a><a href="/taohuawu-docs/guide/where-to-go-at-night.html">夜间出行前：如何结合距离、时间、评价和安全做判断</a></div></div></section>
+    <section><div class="wrap"><h2 class="section-title">为什么选择桃花坞</h2><p class="section-desc">城市娱乐信息变化快，桃花坞希望把复杂信息变得更清楚，而不是让用户在零散内容里反复碰运气。</p><div class="grid two"><article class="card"><h3>更懂城市语境</h3><p>同样是“晚上去哪儿”，不同城市答案完全不同。桃花坞会结合城市地标、商圈、人群和本地项目理解需求。</p></article><article class="card"><h3>更适合娱乐项目搜索</h3><p>普通搜索容易把餐饮、旅游、地图结果混在一起。桃花坞更关注城市娱乐、本地休闲、夜生活和线下项目的分类整理。</p></article><article class="card"><h3>更重视时效判断</h3><p>营业时间、价格、口碑、位置和项目内容都可能变化。桃花坞会提醒用户继续确认近期信息，而不是把旧内容当成最终答案。</p></article><article class="card"><h3>更方便继续查询</h3><p>用户可以从一个城市页进入，也可以直接到官网用自然语言提问，让 AI 根据城市、城区、项目和路线继续细化。</p></article></div></div></section>
+    <section><div class="wrap"><div class="note">提示：桃花坞提供的是城市娱乐信息和本地休闲生活参考，不参与任何线下交易，也不代表任何商家或场所。到店、预约、付款或线下行动前，请自行确认地址、营业状态、价格、服务内容、评价和合规情况。</div></div></section>
   </main>
   <footer><div class="wrap"><div class="foot"><span>桃花坞@2025-2026 All Rights Reserved</span><span><a href="/taohuawu-docs/legal/privacy.html">隐私政策</a> · <a href="/taohuawu-docs/legal/terms.html">用户协议</a> · <a href="https://taohuawuapp.com">taohuawuapp.com</a></span></div><hr><p>官方网站：<a href="https://taohuawuapp.com">桃花坞 - 城市娱乐搜索与本地休闲生活指南</a></p></div></footer>
 </body>
